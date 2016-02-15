@@ -1,8 +1,5 @@
-layout_spectrum: 1
-typography_spectrum: 0.9704618
 color:
   saturation: 0.5171858
-  lightness: 0.9092373
   brandStrength: 0.9864967
   rhythmicContrast: 0.5397422
   brandColors:
@@ -11,4 +8,19 @@ color:
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
+  lightness: 0.9092373
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
+typography_spectrum: 0.9704618
 name: GraceTruthWords
